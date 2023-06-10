@@ -1,0 +1,17 @@
+FROM python:3.9
+WORKDIR /app
+COPY . /app
+RUN pip install -r requirements.txt
+CMD [ "python", "app.py" ]
+
+# This is a Dockerfile that defines the build process for a Docker image. Docker is a platform for developing, shipping, and running applications in containers.
+
+# The FROM instruction specifies the base image to use for the build. In this case, it is the official Python 3.9 image.
+
+# The WORKDIR instruction sets the working directory for any subsequent instructions in the Dockerfile.
+
+# The COPY instruction copies files from the host machine to the container’s file system.
+
+# The RUN instruction runs a command in the container’s file system. In this case, it installs the Python packages listed in requirements.txt.
+
+# The CMD instruction specifies the command to run when a container based on this image is started. In this case, it runs the app.py script using Python.
