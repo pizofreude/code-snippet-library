@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+
+
+# This is a YAML file that defines a Docker Compose configuration. Docker Compose is a tool for defining and running multi-container Docker applications.
+
+# The version field specifies the version of the Docker Compose file format. In this case, it is version 3.
+
+# The services field defines the services that make up the application. In this case, there is one service named “web”.
+
+# The build field specifies the location of the Dockerfile used to build the image for this service.
+
+# The ports field maps port 8000 on the host to port 8000 in the container.
