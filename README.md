@@ -90,6 +90,45 @@ Here's a brief description of each directory:
 
 Take a glimpse of the code snippets you can find in each directory and happy coding!
 
+### Pull Request and Commit Message
+
+Having a standardized commit message format can greatly streamline the version control and collaboration process.
+
+Here's a suggested commit message format that you can take as a guideline:
+
+```arduino
+Commit Message Format:
+<directory>: <brief description>
+
+[optional body]
+
+[optional footer]
+```
+
+Here's a breakdown of each part:
+
+*   `<directory>`: The directory or module name where the changes are made. For example, `algorithms`, `backend-dev`, `css`, etc. This helps in quickly identifying the scope of the changes.
+    
+*   `<brief description>`: A concise summary of the changes made in the commit. It should provide enough information to understand the purpose or nature of the changes.
+    
+*   `[optional body]`: An optional section where you can provide more details about the changes. This can include any additional context, explanations, or notable points related to the commit.
+    
+*   `[optional footer]`: Another optional section where you can include any relevant information such as references to issues, pull requests, or other related commits.
+    
+
+Here's an example of a commit message using this format:
+
+```sql
+algorithms: Add binary search implementation
+
+- Implemented binary search algorithm in Python
+- Included an example usage in the README
+
+Closes #25
+```
+
+Using this format consistently across your commits will make it easier for collaborators to understand the changes made and track the progress of the project.
+
 Contributions and Feedback
 --------------------------
 
