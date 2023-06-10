@@ -88,6 +88,8 @@ Here's a brief description of each directory:
     
 17.  **testing-automation**: The testing-automation directory focuses on code snippets related to testing and test automation. It includes examples for unit testing, integration testing, UI testing, and tools like Selenium or Cypress.
 
+Take a glimpse of the code snippets you can find in each directory and happy coding!
+
 Contributions and Feedback
 --------------------------
 
