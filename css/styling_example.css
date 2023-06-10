@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* This CSS code defines the styling for a container element.
+
+The .container selector targets an HTML element with the class name “container”.
+The width property sets the width of the element to 100% of its parent element’s width.
+The max-width property sets the maximum width of the element to 800 pixels.
+The margin property sets the margin of the element to 0 on the top and bottom and auto on the left and right, which centers the element horizontally.
+The padding property sets the padding of the element to 20 pixels on all sides.
+The background-color property sets the background color of the element to #f2f2f2. */
