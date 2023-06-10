@@ -1,0 +1,17 @@
+FROM python:3.9
+WORKDIR /app
+COPY . /app
+RUN pip install -r requirements.txt
+CMD [ "python", "app.py" ]
+
+# This is a Dockerfile that defines a Docker image for a Python application.
+
+# The `FROM` statement specifies the base image to use. In this case, it is the official Python 3.9 image.
+
+# The `WORKDIR` statement sets the working directory for the application.
+
+# The `COPY` statement copies the contents of the current directory to the working directory in the Docker image.
+
+# The `RUN` statement runs a command in the Docker image. In this case, it installs the Python dependencies listed in `requirements.txt`.
+
+# The `CMD` statement specifies the command to run when a container is started from the image. In this case, it runs the `app.py` script using Python.
