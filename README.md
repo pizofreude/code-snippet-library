@@ -65,28 +65,40 @@ Here's a brief description of each directory:
 5.  **cpp**: The cpp directory is for code snippets written in C++. It includes examples for various C++ concepts, data structures, algorithms, and object-oriented programming techniques.
     
 6.  **css**: In this directory, you'll find code snippets related to Cascading Style Sheets (CSS). It includes examples for styling web pages, layout techniques, animations, and responsive design.
+
+7.  **data-science**: This directory is dedicated to data science-related code snippets. It includes examples and techniques for data analysis, machine learning, statistical modeling, data visualization, and working with popular libraries and frameworks such as NumPy, Pandas, Matplotlib, scikit-learn, or TensorFlow.
     
-7.  **data-structures**: This directory contains code snippets that demonstrate various data structures, such as linked lists, stacks, queues, trees, and graphs. It's a valuable resource for understanding data organization and manipulation.
+8.  **data-structures**: This directory contains code snippets that demonstrate various data structures, such as linked lists, stacks, queues, trees, and graphs. It's a valuable resource for understanding data organization and manipulation.
     
-8.  **deployment-infra**: The deployment-infra directory focuses on code snippets related to deployment and infrastructure management. It includes examples for deploying applications, provisioning infrastructure using tools like Terraform, and managing cloud platforms.
+9.  **deployment-infra**: The deployment-infra directory focuses on code snippets related to deployment and infrastructure management. It includes examples for deploying applications, provisioning infrastructure using tools like Terraform, and managing cloud platforms.
+
+10. **dev-ops**: The dev-ops directory focuses on code snippets related to DevOps practices. It includes examples for automating software development processes, infrastructure provisioning, configuration management, continuous integration and deployment (CI/CD), monitoring, and other DevOps-related tasks. You can find code snippets for tools like Docker, Kubernetes, Jenkins, Ansible, Terraform, or AWS CloudFormation.
     
-9.  **docker**: In this directory, you'll find code snippets related to Docker containers. It includes examples for creating Docker images, running containers, and managing containerized applications.
+11. **docker**: In this directory, you'll find code snippets related to Docker containers. It includes examples for creating Docker images, running containers, and managing containerized applications.
     
-10.  **frontend-dev**: The frontend-dev directory is dedicated to code snippets for frontend development. It includes examples for HTML, CSS, JavaScript, and frontend frameworks like React, Angular, or Vue.js.
+12.  **frontend-dev**: The frontend-dev directory is dedicated to code snippets for frontend development. It includes examples for HTML, CSS, JavaScript, and frontend frameworks like React, Angular, or Vue.js.
+
+13.  **game-dev**: In this directory, you'll find code snippets related to game development. It includes examples and techniques for building games, implementing game mechanics, handling game physics, rendering graphics, managing game assets, and working with game engines or frameworks such as Unity, Unreal Engine, or Phaser.
     
-11.  **fullstack-integration**: This directory contains code snippets related to integrating frontend and backend components. It includes examples for making API calls, handling data transfer, and establishing communication between different layers of a full-stack application.
+14.  **fullstack-integration**: This directory contains code snippets related to integrating frontend and backend components. It includes examples for making API calls, handling data transfer, and establishing communication between different layers of a full-stack application.
     
-12.  **html**: In this directory, you'll find code snippets related to HTML markup. It includes examples for structuring web pages, using semantic elements, forms, and multimedia integration.
+15.  **html**: In this directory, you'll find code snippets related to HTML markup. It includes examples for structuring web pages, using semantic elements, forms, and multimedia integration.
     
-13.  **java**: The java directory is for code snippets written in the Java programming language. It includes examples for Java fundamentals, object-oriented programming, multithreading, and more.
+16.  **java**: The java directory is for code snippets written in the Java programming language. It includes examples for Java fundamentals, object-oriented programming, multithreading, and more.
     
-14.  **javascript**: This directory contains code snippets written in JavaScript. It includes examples for JavaScript language features, DOM manipulation, asynchronous programming, and popular JavaScript libraries or frameworks.
+17.  **javascript**: This directory contains code snippets written in JavaScript. It includes examples for JavaScript language features, DOM manipulation, asynchronous programming, and popular JavaScript libraries or frameworks.
     
-15.  **k8s**: The k8s directory is dedicated to code snippets related to Kubernetes, a container orchestration platform. It includes examples for deploying, managing, and scaling applications using Kubernetes.
+18.  **k8s**: The k8s directory is dedicated to code snippets related to Kubernetes, a container orchestration platform. It includes examples for deploying, managing, and scaling applications using Kubernetes.
+
+19.  **mobile-dev**: The mobile-dev directory is dedicated to code snippets related to mobile app development. It includes examples and techniques for building mobile applications for platforms like Android and iOS. You can find code snippets for languages like Java, Kotlin, Swift, or Objective-C, as well as frameworks and tools specific to mobile development.
     
-16.  **python**: In this directory, you'll find code snippets written in Python. It includes examples for Python language features, libraries, frameworks, and common programming tasks.
+20.  **python**: In this directory, you'll find code snippets written in Python. It includes examples for Python language features, libraries, frameworks, and common programming tasks.
+
+21.  **security**: This directory focuses on code snippets related to software security. It includes examples and techniques for implementing secure coding practices, authentication, authorization, encryption, hashing, input validation, handling sensitive data, mitigating common security vulnerabilities, and conducting security testing.
     
-17.  **testing-automation**: The testing-automation directory focuses on code snippets related to testing and test automation. It includes examples for unit testing, integration testing, UI testing, and tools like Selenium or Cypress.
+22.  **testing-automation**: The testing-automation directory focuses on code snippets related to testing and test automation. It includes examples for unit testing, integration testing, UI testing, and tools like Selenium or Cypress.
+
+23.  **web-scraping**: In the web-scraping directory, you'll find code snippets related to web scraping and data extraction from websites. It includes examples using libraries like BeautifulSoup (Python) or Puppeteer (JavaScript) to scrape web pages, extract structured data, and automate web interactions.
 
 Take a glimpse of the code snippets you can find in each directory and happy coding!
 
