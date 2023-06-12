@@ -1,0 +1,32 @@
+<!-- Here's an example of a code snippet that direct HTML to reference an external CSS to demonstrate the use of CSS Grid: -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>
+
+<!-- In this example, we have an HTML file that references an external CSS file (`styles.css`).
+The HTML file contains a container element (`div` with the class `.container`) and three item elements (`div` with the class `.item`).
+The CSS file defines the styling and layout using CSS Grid.
+
+In the CSS, we set the `.container` class to have `display: grid;`, which enables CSS Grid layout for the container.
+We use `grid-template-columns: repeat(2, 1fr);` to specify a grid with two equal columns.
+The `1fr` unit represents a fraction of the available space, distributing the columns equally.
+We also set `grid-gap: 10px;` to create a gap of 10 pixels between the grid cells.
+Finally, `justify-content: center;` is used to horizontally center the items within the container.
+
+The `.item` class defines the styling for the item elements.
+They have a fixed width and height, a background color, and use Flexbox with `justify-content: center;` 
+and `align-items: center;` to center their content both horizontally and vertically.
+
+By combining HTML and CSS in this way, the CSS Grid layout is applied to the container and its child items,
+ resulting in a grid-based layout with two columns and centered items. -->
