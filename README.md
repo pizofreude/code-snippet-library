@@ -91,14 +91,22 @@ Here's a brief description of each directory:
 18.  **k8s**: The k8s directory is dedicated to code snippets related to Kubernetes, a container orchestration platform. It includes examples for deploying, managing, and scaling applications using Kubernetes.
 
 19.  **mobile-dev**: The mobile-dev directory is dedicated to code snippets related to mobile app development. It includes examples and techniques for building mobile applications for platforms like Android and iOS. You can find code snippets for languages like Java, Kotlin, Swift, or Objective-C, as well as frameworks and tools specific to mobile development.
-    
-20.  **python**: In this directory, you'll find code snippets written in Python. It includes examples for Python language features, libraries, frameworks, and common programming tasks.
 
-21.  **security**: This directory focuses on code snippets related to software security. It includes examples and techniques for implementing secure coding practices, authentication, authorization, encryption, hashing, input validation, handling sensitive data, mitigating common security vulnerabilities, and conducting security testing.
-    
-22.  **testing-automation**: The testing-automation directory focuses on code snippets related to testing and test automation. It includes examples for unit testing, integration testing, UI testing, and tools like Selenium or Cypress.
+20.  **mysql**: The MySQL directory is dedicated to storing files related to MySQL, a popular open-source relational database management system. This directory can be used to organize scripts, configurations, or documentation specifically related to MySQL databases.
 
-23.  **web-scraping**: In the web-scraping directory, you'll find code snippets related to web scraping and data extraction from websites. It includes examples using libraries like BeautifulSoup (Python) or Puppeteer (JavaScript) to scrape web pages, extract structured data, and automate web interactions.
+This directory may contain various files and subdirectories depending on the project's needs. For example, it can include SQL scripts for database creation, table definitions, data manipulation, or stored procedures. It may also include configuration files, such as my.cnf, which specifies MySQL server settings.
+
+Additionally, it can house documentation or README files that provide guidance on setting up a MySQL database, connecting to it, or performing common tasks. These resources can be valuable references for developers and contributors working with MySQL in the project.
+
+By keeping MySQL-related files organized within the mysql/ directory, it becomes easier for team members to locate and manage database-specific artifacts, promoting a structured and maintainable project setup.
+    
+21.  **python**: In this directory, you'll find code snippets written in Python. It includes examples for Python language features, libraries, frameworks, and common programming tasks.
+
+22.  **security**: This directory focuses on code snippets related to software security. It includes examples and techniques for implementing secure coding practices, authentication, authorization, encryption, hashing, input validation, handling sensitive data, mitigating common security vulnerabilities, and conducting security testing.
+    
+23.  **testing-automation**: The testing-automation directory focuses on code snippets related to testing and test automation. It includes examples for unit testing, integration testing, UI testing, and tools like Selenium or Cypress.
+
+24.  **web-scraping**: In the web-scraping directory, you'll find code snippets related to web scraping and data extraction from websites. It includes examples using libraries like BeautifulSoup (Python) or Puppeteer (JavaScript) to scrape web pages, extract structured data, and automate web interactions.
 
 Take a glimpse of the code snippets you can find in each directory and happy coding!
 
