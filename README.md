@@ -94,11 +94,11 @@ Here's a brief description of each directory:
 
 20.  **mysql**: The MySQL directory is dedicated to storing files related to MySQL, a popular open-source relational database management system. This directory can be used to organize scripts, configurations, or documentation specifically related to MySQL databases.
 
-This directory may contain various files and subdirectories depending on the project's needs. For example, it can include SQL scripts for database creation, table definitions, data manipulation, or stored procedures. It may also include configuration files, such as my.cnf, which specifies MySQL server settings.
+    This directory may contain various files and subdirectories depending on the project's needs. For example, it can include SQL scripts for database creation, table definitions, data manipulation, or stored procedures. It may also include configuration files, such as my.cnf, which specifies MySQL server settings.
 
-Additionally, it can house documentation or README files that provide guidance on setting up a MySQL database, connecting to it, or performing common tasks. These resources can be valuable references for developers and contributors working with MySQL in the project.
+    Additionally, it can house documentation or README files that provide guidance on setting up a MySQL database, connecting to it, or performing common tasks. These resources can be valuable references for developers and contributors working with MySQL in the project.
 
-By keeping MySQL-related files organized within the mysql/ directory, it becomes easier for team members to locate and manage database-specific artifacts, promoting a structured and maintainable project setup.
+    By keeping MySQL-related files organized within the mysql/ directory, it becomes easier for team members to locate and manage database-specific artifacts, promoting a structured and maintainable project setup.
     
 21.  **python**: In this directory, you'll find code snippets written in Python. It includes examples for Python language features, libraries, frameworks, and common programming tasks.
 
