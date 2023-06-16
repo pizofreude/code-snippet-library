@@ -108,6 +108,8 @@ By keeping MySQL-related files organized within the mysql/ directory, it becomes
 
 24.  **web-scraping**: In the web-scraping directory, you'll find code snippets related to web scraping and data extraction from websites. It includes examples using libraries like BeautifulSoup (Python) or Puppeteer (JavaScript) to scrape web pages, extract structured data, and automate web interactions.
 
+25.   **web3**: This directory is intended for storing files and resources related to Web3 development. Web3 refers to the third generation of web technologies that enable decentralized applications (dApps) and interactions with blockchain networks, typically through the Ethereum platform.
+
 Take a glimpse of the code snippets you can find in each directory and happy coding!
 
 ### Pull Request and Commit Message
