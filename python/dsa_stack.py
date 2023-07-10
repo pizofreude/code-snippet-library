@@ -1,4 +1,42 @@
-In this code snippet, we define a `Stack` class that implements the stack data structure.
+# Here's a Python code snippet that demonstrates the implementation of a stack data structure using a list:
+
+class Stack:
+    def __init__(self):
+        self.stack = []
+
+    def push(self, item):
+        self.stack.append(item)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.stack.pop()
+        else:
+            return None
+
+    def peek(self):
+        if not self.is_empty():
+            return self.stack[-1]
+        else:
+            return None
+
+    def is_empty(self):
+        return len(self.stack) == 0
+
+    def size(self):
+        return len(self.stack)
+
+# Example usage
+stack = Stack()
+stack.push(10)
+stack.push(20)
+stack.push(30)
+print("Stack size:", stack.size())
+print("Top element:", stack.peek())
+print("Popped element:", stack.pop())
+print("Is stack empty?", stack.is_empty())
+
+
+# In this code snippet, we define a `Stack` class that implements the stack data structure.
 # The stack is implemented using a list, where the top of the stack is the last element of the list.
 
 # The `Stack` class provides the following methods:
