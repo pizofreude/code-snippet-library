@@ -17,6 +17,7 @@ class BankAccount:
         self.balance += amount
 
     # We set withdraw as another Methods
+    # with error handling
     def withdraw(self, amount):
         if amount > self.balance:
             raise ValueError("Insufficient funds")
@@ -24,7 +25,9 @@ class BankAccount:
 
     # We set get_balance as another Methods
     def get_balance(self):
-        return self.balance
+        # Format the balance with Euro symbol and comma separator
+        formatted_balance = "€{:,}".format(self.balance)
+        return formatted_balance
 
 # We create a Bank Account as an object with the account number and balance
 # and print its balance
