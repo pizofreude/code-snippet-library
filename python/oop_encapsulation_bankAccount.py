@@ -31,18 +31,22 @@ class BankAccount:
 
 # We create a Bank Account as an object with the account number and balance
 # and print its balance
-account = BankAccount("2443478692", 10000000)
+initial_balance = 10000000
+deposit_amount = 1123500
+withdraw_amount = 78600
 
-print(account.get_balance())
+account = BankAccount("2443478692", initial_balance)
+
+print("Initial balance: {}".format(account.get_balance()))
 
 # We deposit $1,123,500
-account.deposit(1123500)
+account.deposit(deposit_amount)
 
-print(account.get_balance())
+print("After deposit of €{:,.2f}: {}".format(deposit_amount, account.get_balance()))
 
 # We withdraw $78,860
-account.withdraw(78600)
+account.withdraw(withdraw_amount)
 
-print(account.get_balance())
+print("After withdrawal of €{:,.2f}: {}".format(withdraw_amount, account.get_balance()))
 
 
