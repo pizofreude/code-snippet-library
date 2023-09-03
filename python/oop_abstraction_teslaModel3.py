@@ -49,6 +49,48 @@ class TeslaModel3:
         self.lane_departure_warning.test()
 
 
+class Autopilot:
+    """
+    A class to represent the car's autopilot feature.
+    """
+
+    def enable(self):
+        """
+        Enable the autopilot feature.
+        """
+        print("Autopilot enabled.")
+
+    def disable(self):
+        """
+        Disable the autopilot feature.
+        """
+        print("Autopilot disabled.")
+
+
+class ForwardCollisionWarning:
+    """
+    A class to represent the car's forward collision warning feature.
+    """
+
+    def test(self):
+        """
+        Test the forward collision warning feature.
+        """
+        print("Forward collision warning test passed.")
+
+
+class LaneDepartureWarning:
+    """
+    A class to represent the car's lane departure warning feature.
+    """
+
+    def test(self):
+        """
+        Test the lane departure warning feature.
+        """
+        print("Lane departure warning test passed.")
+
+
 def main():
     """
     The main function.
