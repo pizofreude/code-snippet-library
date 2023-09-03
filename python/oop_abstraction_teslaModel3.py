@@ -1,3 +1,8 @@
+# Here's a Python OOP Abstraction project for Tesla Model 3
+# We'll use the following classes: TeslaModel3, Autopilot, ForwardCollisionWarning, and LaneDepartureWarning
+# Abstraction is the process of hiding the unnecessary details of an object from the user.
+
+
 class TeslaModel3:
     """
     A class to represent a Tesla Model 3 car.
