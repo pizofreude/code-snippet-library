@@ -88,7 +88,6 @@ class LaneDepartureWarning:
     """
     A class to represent the car's lane departure warning feature.
     """
-
     def test(self):
         """
         Test the lane departure warning feature.
@@ -97,9 +96,6 @@ class LaneDepartureWarning:
 
 
 def main():
-    """
-    The main function.
-    """
     color = input("Enter the car's color: ")
 
     # Get the car's range from the user.
@@ -124,13 +120,10 @@ def main():
 
     # Run the car's safety tests.
     car.safety_test()
-
     # Accelerate the car.
     car.accelerate()
-
     # Brake the car.
     car.brake()
-
 
 if __name__ == "__main__":
     main()
