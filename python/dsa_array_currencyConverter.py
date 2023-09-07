@@ -34,6 +34,8 @@ def convert_currency(amount, base_currency, target_currency):
 
     # Convert the amount
     converted_amount = amount * exchange_rate
+    # Format the converted amount.
+    converted_amount = f"{converted_amount:,.2f}"
 
     return converted_amount
 
@@ -98,9 +100,10 @@ def main():
 
     # Convert the amount
     converted_amount = convert_currency(amount, base_currency, target_currency)
+    
 
     # Print the converted amount
-    print(f"{amount} {base_currency} = {converted_amount} {target_currency}")
+    print(f"{amount:,.2f} {base_currency} = {converted_amount} {target_currency}")
 
 
 if __name__ == "__main__":
