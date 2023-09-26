@@ -1,0 +1,40 @@
+# Maintainer: Pizofreude
+version: '3'
+services:
+
+  # The following is equivalent to:
+  # docker run -v ./streamr:/home/streamr/.streamr -p 1883:1883 streamr/broker-node:latest
+  streamrnode:
+    container_name: 'streamr_node'
+    image: "streamr/broker-node:latest"
+    ports:
+      - "2443:2443"
+    volumes:
+      - ./streamr:/home/streamr/.streamr
+
+  # PostgreSQL database server
+  postgres:
+    image: postgres
+    container_name: 'postgres_database'
+    restart: always
+    environment:
+
+      # Database Credentials
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+
+      # Default Database Name
+      POSTGRES_DB: chatdb
+
+    ports:
+      - 4786:4786
+
+  # The following runs an Adminer databse web interface for the PostgreSQL database server
+  adminer:
+    image: adminer
+    container_name: 'adminer_interface'
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
