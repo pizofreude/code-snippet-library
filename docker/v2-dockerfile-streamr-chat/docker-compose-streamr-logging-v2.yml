@@ -1,0 +1,57 @@
+# Maintainer: Pizofreude
+version: '3'
+services:
+
+  # The following is equivalent to: docker run -v ./streamr:/home/streamr/.streamr -p 2443:2443 streamr/broker-node:latest
+  streamrnode:
+    container_name: 'streamr_node'
+    image: "streamr/broker-node:latest"
+    ports:
+      - "2443:2443"
+    volumes:
+      - ./streamr:/home/streamr/.streamr
+
+  # Runs a PostgreSQL database server
+  postgres:
+    image: postgres
+    container_name: 'postgres_database'
+    restart: always
+    environment:
+
+      # Database Credentials via env vars.
+      POSTGRES_USER: MY_POSTGRES_USER
+      POSTGRES_PASSWORD: MY_POSTGRES_PASSWORD
+
+      # Default Database Name
+      POSTGRES_DB: chatdb
+
+  # Adminer databse web interface for the PostgreSQL database server
+  adminer:
+    image: adminer
+    container_name: 'adminer_interface'
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+
+  # nodechatlogs Dockerfile.
+  logger:
+
+    # Path to nodechatlogs Dockerfile
+    build: nodechatlogs/
+    container_name: 'logger_service'
+    ports:
+      - 3000:3000
+    environment:
+      STREAMRADDRESS: streamr_node
+      STREAMRUSER: Pizofreude
+      STREAMRAPIKEY: MY_STREAMR_NODE_API_KEY
+      STREAMRTOPIC: MY_HEX_ADDRESS/streamr_chat
+      DBADDRESS: postgres_database
+      DBNAME: chatdb
+      DBUSER: MY_DB_USER
+      DBPASSWORD: MY_DB_PASSWORD
+    depends_on:
+      - streamrnode
+      - postgres
